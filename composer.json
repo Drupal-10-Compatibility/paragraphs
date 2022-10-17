@@ -24,7 +24,7 @@
         "drupal/diff": "^1.1",
         "drupal/entity_browser": "^2.8",
         "drupal/entity_usage": "^2.0@beta",
-        "drupal/field_group": "^3.3",
+        "drupal/field_group": "3.x-dev",
         "drupal/inline_entity_form": "^1.0@RC",
         "drupal/paragraphs": "1.x-dev",
         "drupal/replicate": "^1.0",
