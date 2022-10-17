@@ -17,11 +17,18 @@
     "require": {
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
+        "drupal/block_field": "^1.0@RC",
         "drupal/core": "10.0.x-dev as 9.4",
         "drupal/core-composer-scaffold": "10.0.x-dev as 9.4",
         "drupal/core-recommended": "10.0.x-dev as 9.4",
+        "drupal/diff": "^1.1",
         "drupal/entity_browser": "^2.8",
+        "drupal/entity_usage": "^2.0@beta",
+        "drupal/field_group": "^3.3",
+        "drupal/inline_entity_form": "^1.0@RC",
         "drupal/paragraphs": "1.x-dev",
+        "drupal/replicate": "^1.0",
+        "drupal/search_api": "^1.26",
         "drush/drush": "^11.0",
         "oomphinc/composer-installers-extender": "^2.0",
         "wikimedia/composer-merge-plugin": "^2.0"

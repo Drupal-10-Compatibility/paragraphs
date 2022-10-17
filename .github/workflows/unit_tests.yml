@@ -13,7 +13,7 @@ jobs:
     runs-on:  ubuntu-latest
     env:
       MODULE: paragraphs
-      MODULES: entity_reference_revisions entity_browser
+      MODULES: entity_reference_revisions entity_browser block_field diff entity_usage field_group inline_entity_form replicate search_api
       COMPOSER_MEMORY_LIMIT: -1
       # Note, the username, password, port and db match mysql service setup.
       SIMPLETEST_DB: mysql://root:root@127.0.0.1:3306/paragraphs
