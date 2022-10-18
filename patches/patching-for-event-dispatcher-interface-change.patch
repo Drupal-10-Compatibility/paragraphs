@@ -1,0 +1,13 @@
+diff --git a/tests/src/Unit/migrate/ParagraphsProcessOnValueTest.php b/tests/src/Unit/migrate/ParagraphsProcessOnValueTest.php
+index e3ec842..42a2939 100644
+--- a/tests/src/Unit/migrate/ParagraphsProcessOnValueTest.php
++++ b/tests/src/Unit/migrate/ParagraphsProcessOnValueTest.php
+@@ -6,7 +6,7 @@ use Drupal\migrate\MigrateExecutable;
+ use Drupal\migrate\MigrateMessageInterface;
+ use Drupal\migrate\Plugin\migrate\process\Get;
+ use Drupal\paragraphs\Plugin\migrate\process\ParagraphsProcessOnValue;
+-use Symfony\Component\EventDispatcher\EventDispatcherInterface;
++use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
+ 
+ /**
+  * Test class for the paragraphs_process_on_value process plugin.

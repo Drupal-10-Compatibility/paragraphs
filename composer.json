@@ -121,6 +121,9 @@
             "drupal/core": "-p2"
         },
         "patches": {
+            "drupal/paragraphs": {
+                "Patching for Event Dispatcher Interface change": "patches/patching-for-event-dispatcher-interface-change.patch"
+            }
         }
     },
     "scripts": {
